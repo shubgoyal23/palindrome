@@ -5,6 +5,7 @@ body{
     width: 100%;
     max-width: 720px;
     margin: auto;
+    padding-bottom: 5rem;
 }
 input{
     padding: 0.5rem;
@@ -44,7 +45,7 @@ p{
     margin: auto;
     margin-top: 1reme;
     padding: 1.5rem auto;
-    color: #055050;
+    color: #0018ff;
     font-weight: bold;
 }
 .dates{
