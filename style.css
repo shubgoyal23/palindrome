@@ -44,6 +44,9 @@ p{
     margin: auto;
     margin-top: 1reme;
     padding: 1.5rem auto;
-    color: rgb(2, 44, 44);
+    color: rgb(5, 80, 80);
     font-weight: bold;
+}
+.dates{
+    color: rgb(255, 29, 29);
 }

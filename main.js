@@ -143,7 +143,7 @@ function ClickHandler() {
   }
   let nextdattte = nextpalindromedate(date);
   let previousdate = previouspalindromedate(date);
-  results.innerHTML = `No, it's not a palindrome date. The next palindrome date will be in ${nextdattte[0]} days on ${nextdattte[1].day}/${nextdattte[1].month}/${nextdattte[1].year},and the previous date that passed was ${previousdate[0]} days ago on ${previousdate[1].day}/${previousdate[1].month}/${previousdate[1].year}.`;
+  results.innerHTML = `No, it's not a palindrome date.<br>The next palindrome date will be in <span class="dates">${nextdattte[0]}</span> days on <span class="dates">${nextdattte[1].day}/${nextdattte[1].month}/${nextdattte[1].year}</span>,and the previous date that passed was <span class="dates">${previousdate[0]}</span> days ago on <span class="dates">${previousdate[1].day}/${previousdate[1].month}/${previousdate[1].year}</span>.`;
 
 }
 
