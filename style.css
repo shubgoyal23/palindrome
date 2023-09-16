@@ -1,7 +1,7 @@
 body{
     text-align: center;
     background-color: antiquewhite;
-    padding-top: 10rem;
+    padding-top: 5rem;
     width: 100%;
     max-width: 720px;
     margin: auto;
@@ -44,9 +44,13 @@ p{
     margin: auto;
     margin-top: 1reme;
     padding: 1.5rem auto;
-    color: rgb(5, 80, 80);
+    color: #055050;
     font-weight: bold;
 }
 .dates{
     color: rgb(255, 29, 29);
+}
+img{
+    height: 13rem;
+    padding: 1rem;
 }
